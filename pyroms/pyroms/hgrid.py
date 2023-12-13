@@ -1043,7 +1043,7 @@ class Gridgen(CGrid):
                  newton=True, thin=True, checksimplepoly=True, verbose=False):
 
         #self._libgridgen = np.ctypeslib.load_library('libgridgen',__file__)
-        self._libgridgen = np.ctypeslib.load_library('libgridgen', pyroms.__path__[0])
+        self._libgridgen = np.ctypeslib.load_library('libgridgen', "/opt/conda/envs/myenv/lib")
 
         # In MacOSX, use of c_void_p does not return proper structure.
         # (An integer address is returned and subsequent use results in a
