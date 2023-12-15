@@ -1,5 +1,6 @@
 import os
 import pyroms
+import pyroms.remapping.scrip
 
 
 def compute_remap_weights(grid1_file, grid2_file, \

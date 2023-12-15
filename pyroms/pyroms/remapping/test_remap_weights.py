@@ -1,5 +1,6 @@
 import os
 import pyroms
+import pyroms.remapping.scrip
 
 
 def test_remap_weights(field_choice, interp_file, output_file): 

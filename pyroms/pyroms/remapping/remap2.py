@@ -4,6 +4,7 @@ try:
 except:
     import netCDF3 as netCDF
 import pyroms
+import pyroms.remapping.scrip
 
 
 def remap2(src_array, remap_file, src_grad1=None, src_grad2=None, \
